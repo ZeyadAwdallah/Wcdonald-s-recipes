@@ -1,5 +1,6 @@
 # odin-recipes
 This is my first try at The Odin Project
+it is small recipes web using HTML CSS
 
 ### Introduction
 
