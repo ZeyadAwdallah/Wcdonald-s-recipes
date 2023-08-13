@@ -42,6 +42,8 @@ width: 50%;
 height: 100%;
 }
 #head {
+padding-left:5em;
+padding-top:3em;
 width: 40vw;
 height: 10vh;
 text-align: left;
@@ -49,19 +51,34 @@ color: var(--yellow);
 position: relative;
 }
 #head h1{
-
- font-size:4em; 
+ font-size:3em; 
  display: inline-block;
 }
-#image h2{
+
+   #image a:link {
     position: absolute;
-    top: 90%;
+    top: 92%;
     left: 85%;
     color: var(--yellow);
     padding: .2em;
-    font-size:2em; 
-    border: var(--red) solid 2px;
+    font-weight: bold;
+    font-size:1.5em; 
     border-radius: 5%;
     display: inline-block;
     background-color: var(--red);
-   }
+    transition: all .2s ease 0s ;
+    text-decoration-line: none;
+  }
+  
+  #image a:visited {
+    color:var(--yellow);
+  }
+  
+  #image a:hover {
+    color: var(--red);
+    background-color: var(--yellow);
+  }
+  
+  #image a:active {
+    color: var(--yellow);
+  } 
