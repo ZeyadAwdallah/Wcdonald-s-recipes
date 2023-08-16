@@ -1,0 +1,100 @@
+:root {
+    --yellow: #F4CF27;
+    --red: #810004;
+    --yellow-active: #ffd00028;
+  }
+body{
+    background-color: var(--red);
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#image{
+width: 50vw;
+height: inherit;
+background-image: url(assets/chicken2.png);
+background-position: right;
+background-repeat: no-repeat;
+background-size: 50vw 100vh;
+position: relative;
+}
+
+#text{
+width: 50%;
+height: 100%;
+padding-left:5em;
+padding-top:3em;
+padding-bottom: 3em;
+}
+
+#head {
+width:35vw;
+margin-bottom: 5em;
+height: 10vh;
+text-align: left;
+color: var(--yellow);
+position: relative;
+}
+#head h1{
+ font-size:3em; 
+ display: inline-block;
+}
+   #image a:link {
+    position: absolute;
+    top: 92%;
+    left: 88%;
+    color: var(--yellow);
+    padding: .2em;
+    font-weight: bold;
+    font-size:1.5em; 
+    border-radius: 5%;
+    display: inline-block;
+    background-color: var(--red);
+    transition: all .2s ease 0s ;
+    text-decoration-line: none;
+  }
+  #image a:visited {
+    color:var(--yellow);
+  }
+  
+  #image a:hover {
+    color: var(--red);
+    background-color: var(--yellow);
+  }
+  
+  #image a:active {
+    color: var(--yellow);
+  } 
+  #ingredients ul,ol{
+    color: var(--yellow);
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 2em;
+  }
+  #ingredients h2{
+    text-align: left;
+    font-size: 2.5em; 
+    color: white;
+    margin: 1em;
+  }
+  #line{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 40vw;
+    height: 3px;
+    background-color:var(--yellow);
+  }
