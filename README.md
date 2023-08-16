@@ -1,6 +1,6 @@
 # odin-recipes
 This is my first try at The Odin Project
-it is small recipes web using HTML CSS (Not Responsive)
+it is small [recipes web](https://wcdonalds.netlify.app/) using HTML CSS (Not Responsive)
 
 ### Introduction
 
